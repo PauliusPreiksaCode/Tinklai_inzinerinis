@@ -1,0 +1,244 @@
+.header {
+  background-color: rgb(220, 20, 60);
+  width: 100%;
+  margin: 0;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center; /* Center the text horizontally */
+}
+
+.header h1 {
+  margin: 0; /* Remove any default margin */
+}
+
+.header .subline {
+  margin-top: 10px; /* Adjust the margin to create space between h1 and h3 */
+}
+
+.login-form {
+    max-width: 600px;
+	min-width: 300px;
+    margin: 0 auto;
+	margin-top: 50px;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.login-heading {
+    text-align: center;
+    font-size: 18pt;
+}
+
+.form-group {
+	width: 96%;
+	align-items: center;
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+}
+
+.s1 {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.error {
+    color: red;
+}
+
+.form-group input[type="checkbox"] {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.register-link {
+    text-align: center;
+    margin-top: 15px;
+}
+
+  .login-form input[type="submit"] {
+    background-color: #4CAF50; /* Background color */
+    color: white; /* Text color */
+    border: none; /* No border */
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .login-form input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+
+.backLink {
+  position: relative;
+  left: -20px;
+}
+
+.user-info {
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.username {
+    font-weight: bold;
+}
+
+.user-role {
+    font-weight: bold;
+}
+
+.logout-button {
+    text-decoration: none;
+    background-color: #d9534f; /* Button background color */
+    color: white; /* Button text color */
+    padding: 10px 20px; /* Button padding */
+    border: none; /* No button border */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.logout-button:hover {
+    background-color: #c9302c; /* Darker color on hover */
+    text-decoration: none;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+table, th, td {
+  border: 1px solid #ccc;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+/* Style for the "Update Role" button */
+button[name="updateRole"] {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+button[name="updateRole"]:hover {
+  background-color: #0056b3;
+}
+
+.styled-select {
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+    width: 100%;
+    max-width: 200px; /* Adjust the width as needed */
+}
+
+.no-orders {
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.order-summary {
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.section-title {
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.styled-form {
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    max-width: 400px; /* Adjust the width as needed */
+}
+
+.styled-form label {
+    font-weight: bold;
+}
+
+.s1 {
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 300px; /* Adjust the width as needed */
+}
+
+.s1:focus {
+    border-color: #007bff;
+}
+
+.customButton {
+  margin-top: 10px; 
+  margin-left: 20px; 
+  padding: 10px 20px; 
+  background-color: #007bff; 
+  color: #fff; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer;
+}
+
+.styled-input {
+    width: 250px;
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px; /* Adjust the spacing as needed */
+}
+
+.cartwrapper {
+  background-color: yellow; 
+  padding: 20px
+}
+
+
+
+
